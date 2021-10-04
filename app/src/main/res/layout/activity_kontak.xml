@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".kontak">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/nunito"
+                android:textSize="25dp"
+                android:textColor="#ffffff">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#111111"
+            android:padding="10dp"
+            android:hint="       Email"
+            android:background="@drawable/bg_login_username"
+            android:textColorHint="#BEC7C7"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_message"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="       Message"
+            android:padding="10dp"
+            android:background="@drawable/bg_login_username"
+            android:textColor="#111111"
+            android:fontFamily="@font/nunito"
+            android:textSize="15dp"
+            android:textColorHint="#BEC7C7"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="       Your name"
+            android:padding="10dp"
+            android:background="@drawable/bg_login_username"
+            android:textColor="#111111"
+            android:fontFamily="@font/nunito"
+            android:textSize="15dp"
+            android:textColorHint="#BEC7C7"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_kontak"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="70dp"/>
+
+
+
+</LinearLayout>

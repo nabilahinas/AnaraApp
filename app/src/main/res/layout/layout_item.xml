@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#E08283"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:text="&#8942;"
+        android:textSize="20sp"
+        android:id="@+id/txt_option"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="right"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="RtlCompat" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:textColor="#96281B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/nunito"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/txt_name"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:fontFamily="@font/nunito"
+                android:textSize="20sp"
+                android:textColor="#D64541"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/txt_desc"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:textColor="#C0392B"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/txt_ing"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

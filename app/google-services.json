@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "576631374074",
+    "firebase_url": "https://anarafood-318506-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "anarafood-318506",
+    "storage_bucket": "anarafood-318506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576631374074:android:c85732ee5bb15ac3a40943",
+        "android_client_info": {
+          "package_name": "com.example.anaraadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576631374074-o49bf46b27n333hvha0flc75jrq6ucug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIfPIzOcjCJ0repz06UYf9PRc6XOizRYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576631374074-o49bf46b27n333hvha0flc75jrq6ucug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576631374074:android:3b417efdd93daef6a40943",
+        "android_client_info": {
+          "package_name": "com.example.anarafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576631374074-o49bf46b27n333hvha0flc75jrq6ucug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIfPIzOcjCJ0repz06UYf9PRc6XOizRYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576631374074-o49bf46b27n333hvha0flc75jrq6ucug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

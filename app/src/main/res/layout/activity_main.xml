@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/black"
+     android:text="Name of Recipe"/>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/edit_name"/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/black"
+     android:text="Description"/>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/edit_desc"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/black"
+     android:text="Ingredients"/>
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/edit_ing"/>
+
+ <Button
+     android:layout_width="300dp"
+     android:layout_height="50dp"
+     android:id="@+id/btn_submit"
+     android:layout_gravity="center"
+     android:background="@drawable/button"
+     android:text="Submit"
+     android:textColor="@android:color/white"
+     android:layout_marginTop="15dp"/>
+ <Button
+     android:layout_width="300dp"
+     android:layout_height="50dp"
+     android:layout_gravity="center"
+     android:id="@+id/btn_open"
+     android:background="@drawable/button"
+     android:text="Open"
+     android:textColor="@android:color/white"
+     android:layout_marginTop="15dp"/>
+ <Button
+     android:layout_width="300dp"
+     android:layout_height="50dp"
+     android:layout_gravity="center"
+     android:id="@+id/btn_web"
+     android:background="@drawable/button"
+     android:text="Web Anara"
+     android:textColor="@android:color/white"
+     android:layout_marginTop="15dp"/>
+<!-- <LinearLayout-->
+<!--     android:layout_width="match_parent"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:orientation="vertical">-->
+
+<!--  <TextView-->
+<!--      android:layout_width="160dp"-->
+<!--      android:layout_height="50dp"-->
+<!--      android:layout_marginTop="20dp"-->
+<!--      android:layout_marginLeft="90dp"-->
+<!--      android:fontFamily="@font/nunito"-->
+<!--      android:gravity="center"-->
+<!--      android:onClick="navigate_web"-->
+<!--      android:textColor="@android:color/white"-->
+<!--      android:text="Web Anara"-->
+<!--      android:textSize="30dp"/>-->
+<!-- </LinearLayout>-->
+
+
+</LinearLayout>
